@@ -66,7 +66,8 @@ def main(startUrl):
             "_email": item,
             "time": now,
             "url": startUrl,
-            "status":0
+            "status":0,
+            "source": 'douban'
         }
 
         data_email.append(dict)
